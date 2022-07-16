@@ -1,0 +1,31 @@
+git config --global user.name "w3schools-test"
+
+git init
+git status
+git add . or git add --all
+git commit -m "message"
+git commit -a -m "message"
+git log
+git log --oneline
+git log --graph
+git log --oneline --graph
+
+git branch
+git branch -a
+git branch my_branch
+git branch -d my_branch
+git checkout my_branch
+git checkout -b my_new_branch
+
+git checkout master
+git merge my_branch
+
+git remote
+git remote -v
+git remote add origin github's url repository
+
+git clone github's url repository
+
+git revert HEAD~number --no-edit
+git reset e56ba1f or git reset HEAD~number
+git reset HEAD~number --soft or git reset HEAD~number --hard or git reset HEAD~number --mixed
